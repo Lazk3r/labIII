@@ -1,0 +1,30 @@
+|mealy
+reset => reg_fstate.state1.OUTPUTSELECT
+reset => reg_fstate.state2.OUTPUTSELECT
+reset => reg_fstate.state3.OUTPUTSELECT
+reset => reg_fstate.state4.OUTPUTSELECT
+reset => reg_fstate.state5.OUTPUTSELECT
+reset => reg_fstate.state6.OUTPUTSELECT
+reset => reg_fstate.state7.OUTPUTSELECT
+reset => reg_fstate.state8.OUTPUTSELECT
+reset => reg_fstate.state9.OUTPUTSELECT
+reset => reg_fstate.state10.OUTPUTSELECT
+reset => Z.OUTPUTSELECT
+reset => Z.OUTPUTSELECT
+reset => fstate.state0.DATAIN
+clock => fstate~1.DATAIN
+X => Selector6.IN1
+X => Selector0.IN1
+X => Selector7.IN0
+X => Selector1.IN1
+X => Selector2.IN1
+X => Selector3.IN2
+X => Selector3.IN3
+X => Selector5.IN1
+X => Selector8.IN1
+X => Selector9.IN1
+X => Selector4.IN0
+Z[0] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Z[1] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+

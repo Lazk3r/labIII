@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, /home/lazk3r/Documents/labIII/moore/moore.bdf
+source_file = 1, /home/lazk3r/Documents/labIII/moore/Waveform.vwf
+source_file = 1, /home/lazk3r/Documents/labIII/moore/db/moore.cbx.xml
+design_name = moore
+instance = comp, \clk~input , clk~input, moore, 1
+instance = comp, \Z~output , Z~output, moore, 1
+instance = comp, \W~input , W~input, moore, 1
+instance = comp, \inst9~0 , inst9~0, moore, 1
+instance = comp, \X~input , X~input, moore, 1
+instance = comp, \inst15~0 , inst15~0, moore, 1
+instance = comp, \aclr~input , aclr~input, moore, 1
+instance = comp, \inst18~0 , inst18~0, moore, 1
+instance = comp, \inst8~0 , inst8~0, moore, 1

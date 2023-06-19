@@ -1,0 +1,121 @@
+Flow report for moore
+Sun Jun 18 19:41:58 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Sun Jun 18 19:41:58 2023           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; moore                                           ;
+; Top-level Entity Name              ; moore                                           ;
+; Family                             ; Cyclone IV GX                                   ;
+; Total logic elements               ; 6                                               ;
+;     Total combinational functions  ; 6                                               ;
+;     Dedicated logic registers      ; 3                                               ;
+; Total registers                    ; 3                                               ;
+; Total pins                         ; 5                                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total GXB Receiver Channel PCS     ; 0                                               ;
+; Total GXB Receiver Channel PMA     ; 0                                               ;
+; Total GXB Transmitter Channel PCS  ; 0                                               ;
+; Total GXB Transmitter Channel PMA  ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/18/2023 19:39:16 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; moore               ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                            ;
++-------------------------------------+------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                  ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 0.168713515621294      ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                   ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL) ; <None>        ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057               ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING  ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                 ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files           ; --            ; --          ; --             ;
++-------------------------------------+------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:00     ; 1.0                     ; 584 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 835 MB              ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 835 MB              ; 00:00:00                           ;
+; Total                ; 00:00:02     ; --                      ; --                  ; 00:00:01                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; Lazk3r-PC        ; Arch Linux ; Arch Linux ; x86_64         ;
+; EDA Netlist Writer   ; Lazk3r-PC        ; Arch Linux ; Arch Linux ; x86_64         ;
+; EDA Netlist Writer   ; Lazk3r-PC        ; Arch Linux ; Arch Linux ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off moore -c moore
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog moore -c moore --vector_source=/home/lazk3r/Documents/labIII/moore/Waveform.vwf --testbench_file=./simulation/qsim/moore.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog moore -c moore
+
+
+

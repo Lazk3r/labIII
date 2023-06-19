@@ -1,0 +1,21 @@
+|moore
+Z <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+aclr => inst1.ACLR
+aclr => inst2.ACLR
+aclr => inst.ACLR
+clk => inst1.CLK
+clk => inst2.CLK
+clk => inst.CLK
+X => inst6.IN0
+X => inst16.IN0
+X => inst5.IN2
+X => inst111.IN2
+X => inst4.IN1
+X => inst9.IN4
+W => inst7.IN0
+W => inst16.IN1
+W => inst17.IN1
+W => inst10.IN2
+W => inst11.IN2
+
+

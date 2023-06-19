@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lazk3r/Documents/labIII/moore/simulation/qsim
+vmoore
+Z1 I[:Z4Rf5d>h4ITEjkW7aze0
+Z2 ViXWKjP;hG23]Y[9oR4Ngl0
+Z3 d/home/lazk3r/Documents/labIII/moore/simulation/qsim
+Z4 w1687135318
+Z5 8moore.vo
+Z6 Fmoore.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 UcZYo:j:OQ=6fo];AP6E>2
+!s85 0
+Z10 !s108 1687135318.489461
+Z11 !s107 moore.vo|
+Z12 !s90 -work|work|moore.vo|
+!s101 -O0
+vmoore_vlg_check_tst
+!i10b 1
+!s100 XM>62ARSHU1ia5o4zVk[L0
+ImhEA`dW@?dQgoLPoBlNBW0
+V6@L]BkKAVSlibhJ78n=Tz1
+R3
+Z13 w1687135316
+Z14 8moore.vt
+Z15 Fmoore.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z16 !s108 1687135318.530322
+Z17 !s107 moore.vt|
+Z18 !s90 -work|work|moore.vt|
+!s101 -O0
+R8
+vmoore_vlg_sample_tst
+!i10b 1
+!s100 ^W?o>=YT8:`idb6H_2<I;0
+IeA[32iEM5fcj<c2LbnZWP1
+V<PQ8jMkdBzNebkQ7SUZi23
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vmoore_vlg_vec_tst
+!i10b 1
+!s100 E?b^3KLXCJR4?ZdPBe5Yb0
+I3mbH>^BEdg3BnXb;GBNPS1
+VHk=`cLhREWcA`?9Vl7[Td0
+R3
+R13
+R14
+R15
+L0 158
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
