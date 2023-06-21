@@ -1,5 +1,5 @@
 EDA Netlist Writer report for mealy
-Sun Jun 18 20:22:11 2023
+Mon Jun 19 22:51:38 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Jun 18 20:22:11 2023 ;
+; EDA Netlist Writer Status ; Successful - Mon Jun 19 22:51:38 2023 ;
 ; Revision Name             ; mealy                                 ;
 ; Top-level Entity Name     ; mealy                                 ;
 ; Family                    ; Cyclone IV GX                         ;
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Jun 18 20:22:11 2023
+    Info: Processing started: Mon Jun 19 22:51:38 2023
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog mealy -c mealy
 Info (119004): Automatically selected device EP4CGX15BF14C6 for design mealy
 Info (204019): Generated file mealy.vo in folder "/home/lazk3r/Documents/labIII/mealy/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 835 megabytes
-    Info: Processing ended: Sun Jun 18 20:22:11 2023
+    Info: Processing ended: Mon Jun 19 22:51:38 2023
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

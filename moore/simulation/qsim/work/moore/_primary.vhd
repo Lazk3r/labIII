@@ -3,9 +3,8 @@ use verilog.vl_types.all;
 entity moore is
     port(
         Z               : out    vl_logic;
-        aclr            : in     vl_logic;
-        clk             : in     vl_logic;
-        X               : in     vl_logic;
-        W               : in     vl_logic
+        CLK             : in     vl_logic;
+        Xin             : in     vl_logic;
+        Win             : in     vl_logic
     );
 end moore;

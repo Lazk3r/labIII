@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 d/home/lazk3r/Documents/labIII/mealy/simulation/qsim
 vmealy
-Z1 I_a4h8Y5C8gRch_9X<:hdA2
-Z2 Vc_kBN0kWQ8Rh=l<n80WW:0
-Z3 d/home/lazk3r/Documents/labIII/mealy/simulation/qsim
-Z4 w1687137731
-Z5 8mealy.vo
-Z6 Fmealy.vo
+Z1 !s100 c?RAlQLaQ[k:d[_=o];gX2
+Z2 I_a4h8Y5C8gRch_9X<:hdA2
+Z3 Vc_kBN0kWQ8Rh=l<n80WW:0
+Z4 d/home/lazk3r/Documents/labIII/mealy/simulation/qsim
+Z5 w1687233098
+Z6 8mealy.vo
+Z7 Fmealy.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z9 !s90 -work|work|mealy.vo|
+Z10 o-work work -O0
 !i10b 1
-Z9 !s100 c?RAlQLaQ[k:d[_=o];gX2
 !s85 0
-Z10 !s108 1687137732.237265
-Z11 !s107 mealy.vo|
-Z12 !s90 -work|work|mealy.vo|
+Z11 !s108 1687233099.191132
+Z12 !s107 mealy.vo|
 !s101 -O0
 vmealy_vlg_check_tst
 !i10b 1
-!s100 R5zIja?glCl?2GPRQe1Pj1
-IV5N5KHE]_^d=`6VFGgdU]0
-V[I>RSX9]mZg`YHeCV55<[1
-R3
-Z13 w1687137730
-Z14 8mealy.vt
-Z15 Fmealy.vt
+Z13 !s100 R5zIja?glCl?2GPRQe1Pj1
+Z14 IV5N5KHE]_^d=`6VFGgdU]0
+Z15 V[I>RSX9]mZg`YHeCV55<[1
+R4
+Z16 w1687233096
+Z17 8mealy.vt
+Z18 Fmealy.vt
 L0 61
-R7
+R8
 r1
 !s85 0
 31
-Z16 !s108 1687137732.252333
-Z17 !s107 mealy.vt|
-Z18 !s90 -work|work|mealy.vt|
+Z19 !s108 1687233099.250066
+Z20 !s107 mealy.vt|
+Z21 !s90 -work|work|mealy.vt|
 !s101 -O0
-R8
+R10
 vmealy_vlg_sample_tst
 !i10b 1
-!s100 g2I[QDLJU=O[XG]XO3KNA0
-If8Hh1fio;]zXi`7_LD`GS0
-Vj9O[2z6ObAOM]S5AN[RGG2
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 g2I[QDLJU=O[XG]XO3KNA0
+Z23 If8Hh1fio;]zXi`7_LD`GS0
+Z24 Vj9O[2z6ObAOM]S5AN[RGG2
+R4
 R16
 R17
 R18
-!s101 -O0
+L0 29
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
 vmealy_vlg_vec_tst
 !i10b 1
-!s100 3_D15O4j^Em@Do6RGST6X3
-IgoiGhDWI8cE7mE75bZ=h32
-Vn;@kbG5;GDz?gHZ@Q7[?=3
-R3
-R13
-R14
-R15
-L0 173
-R7
-r1
-!s85 0
-31
+Z25 !s100 3_D15O4j^Em@Do6RGST6X3
+Z26 IgoiGhDWI8cE7mE75bZ=h32
+Z27 Vn;@kbG5;GDz?gHZ@Q7[?=3
+R4
 R16
 R17
 R18
-!s101 -O0
+Z28 L0 173
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

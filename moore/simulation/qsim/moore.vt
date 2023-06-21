@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "06/18/2023 19:41:56"
+// Generated on "06/20/2023 22:01:24"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    moore
 // 
@@ -27,21 +27,19 @@
 
 `timescale 1 ps/ 1 ps
 module moore_vlg_sample_tst(
-	aclr,
-	clk,
-	W,
-	X,
+	CLK,
+	Win,
+	Xin,
 	sampler_tx
 );
-input  aclr;
-input  clk;
-input  W;
-input  X;
+input  CLK;
+input  Win;
+input  Xin;
 output sampler_tx;
 
 reg sample;
 time current_time;
-always @(aclr or clk or W or X)
+always @(CLK or Win or Xin)
                                                                                 
 begin                                                 
  if ($realtime > 0)                                   
@@ -158,10 +156,9 @@ endmodule
 module moore_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg aclr;
-reg clk;
-reg W;
-reg X;
+reg CLK;
+reg Win;
+reg Xin;
 // wires                                               
 wire Z;
 
@@ -170,52 +167,40 @@ wire sampler;
 // assign statements (if any)                          
 moore i1 (
 // port map - connection between master ports and signals/registers   
-	.aclr(aclr),
-	.clk(clk),
-	.W(W),
-	.X(X),
+	.CLK(CLK),
+	.Win(Win),
+	.Xin(Xin),
 	.Z(Z)
 );
 
-// aclr
-initial
-begin
-	aclr = 1'b0;
-end 
-
-// clk
+// CLK
 always
 begin
-	clk = 1'b0;
-	clk = #20000 1'b1;
+	CLK = 1'b0;
+	CLK = #20000 1'b1;
 	#20000;
 end 
 
-// W
+// Xin
 initial
 begin
-	W = 1'b0;
-	W = #10000 1'b1;
-	W = #20000 1'b0;
-	W = #60000 1'b1;
-	W = #20000 1'b0;
+	Xin = 1'b0;
+	Xin = #10000 1'b1;
+	Xin = #20000 1'b0;
 end 
 
-// X
+// Win
 initial
 begin
-	X = 1'b0;
-	X = #10000 1'b1;
-	X = #20000 1'b0;
-	X = #20000 1'b1;
-	X = #20000 1'b0;
+	Win = 1'b0;
+	Win = #50000 1'b1;
+	Win = #20000 1'b0;
 end 
 
 moore_vlg_sample_tst tb_sample (
-	.aclr(aclr),
-	.clk(clk),
-	.W(W),
-	.X(X),
+	.CLK(CLK),
+	.Win(Win),
+	.Xin(Xin),
 	.sampler_tx(sampler)
 );
 

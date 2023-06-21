@@ -4,78 +4,158 @@ K3
 cModel Technology
 Z0 d/home/lazk3r/Documents/labIII/moore/simulation/qsim
 vmoore
-Z1 I[:Z4Rf5d>h4ITEjkW7aze0
-Z2 ViXWKjP;hG23]Y[9oR4Ngl0
+Z1 Ih>1O::D:I7gcfSj1d7[5o0
+Z2 V9aiPeCSh5lY5RK]?Ti^4B1
 Z3 d/home/lazk3r/Documents/labIII/moore/simulation/qsim
-Z4 w1687135318
+Z4 w1687316485
 Z5 8moore.vo
 Z6 Fmoore.vo
 L0 31
 Z7 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z8 !s90 -work|work|moore.vo|
+Z9 o-work work -O0
 !i10b 1
-Z9 !s100 UcZYo:j:OQ=6fo];AP6E>2
+Z10 !s100 ;HWaQRFVRo73T[R`S4`BX0
 !s85 0
-Z10 !s108 1687135318.489461
-Z11 !s107 moore.vo|
-Z12 !s90 -work|work|moore.vo|
+Z11 !s108 1687316486.186135
+Z12 !s107 moore.vo|
+!s101 -O0
+vMOORE_TEST1
+Z13 !s100 9?JQG_V5:[[NBb@EZ12_01
+Z14 I5d[CW3XF:mNGQ;A3OUfdR2
+Z15 VYi19g79YBKVz@78;:bG?a2
+R3
+Z16 w1687316331
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z17 n@m@o@o@r@e_@t@e@s@t1
+Z18 !s108 1687316331.411254
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vMOORE_TEST1_vlg_check_tst
+Z19 !s100 QRl]IO4fKfLg8iN@1>9Qf2
+Z20 ILZ?aBYJQP:^QFFWQLoDZZ1
+Z21 VVBjZSNOL5Km6jTZ>ZYN=P2
+R3
+Z22 w1687316329
+Z23 8moore.vt
+Z24 Fmoore.vt
+L0 61
+R7
+r1
+31
+Z25 !s108 1687316331.425546
+Z26 !s107 moore.vt|
+Z27 !s90 -work|work|moore.vt|
+R9
+Z28 n@m@o@o@r@e_@t@e@s@t1_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vMOORE_TEST1_vlg_sample_tst
+Z29 !s100 T0POAgAXC6Q3aVnZDC6<:0
+Z30 ICYT0HE=Gg?1eaT[[Sm3U:3
+Z31 V6TnVNIZ5M`iNKnmcNF<e10
+R3
+R22
+R23
+R24
+L0 29
+R7
+r1
+31
+R25
+R26
+R27
+R9
+Z32 n@m@o@o@r@e_@t@e@s@t1_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vMOORE_TEST1_vlg_vec_tst
+Z33 IEadh3GlEWm3TOZ=^cQ@k@0
+Z34 VE14hR^N3GzM^JgfFWl4LW0
+R3
+R22
+R23
+R24
+Z35 L0 156
+R7
+r1
+31
+R25
+R26
+R27
+R9
+Z36 n@m@o@o@r@e_@t@e@s@t1_vlg_vec_tst
+Z37 !s100 PiC`4BAgnDaaZO0O`A?4h0
+!i10b 1
+!s85 0
 !s101 -O0
 vmoore_vlg_check_tst
 !i10b 1
-!s100 XM>62ARSHU1ia5o4zVk[L0
-ImhEA`dW@?dQgoLPoBlNBW0
-V6@L]BkKAVSlibhJ78n=Tz1
+!s100 aOo7bZ6b98>I6ZQ8nU>z=0
+IW?3BSgg7NLS]cFXaao6@@1
+Z38 V6@L]BkKAVSlibhJ78n=Tz1
 R3
-Z13 w1687135316
-Z14 8moore.vt
-Z15 Fmoore.vt
-L0 63
+Z39 w1687316484
+R23
+R24
+L0 61
 R7
 r1
 !s85 0
 31
-Z16 !s108 1687135318.530322
-Z17 !s107 moore.vt|
-Z18 !s90 -work|work|moore.vt|
+Z40 !s108 1687316486.200525
+Z41 !s107 moore.vt|
+R27
 !s101 -O0
-R8
+R9
 vmoore_vlg_sample_tst
 !i10b 1
-!s100 ^W?o>=YT8:`idb6H_2<I;0
-IeA[32iEM5fcj<c2LbnZWP1
-V<PQ8jMkdBzNebkQ7SUZi23
+!s100 35bWaIY=GYhNneX0H;AHz0
+IQ_JV6JGIQd9BOI1:6fne>0
+V0X`75eBVA1FegglKIf:T43
 R3
-R13
-R14
-R15
+R39
+R23
+R24
 L0 29
 R7
 r1
 !s85 0
 31
-R16
-R17
-R18
+R40
+R41
+R27
 !s101 -O0
-R8
+R9
 vmoore_vlg_vec_tst
 !i10b 1
-!s100 E?b^3KLXCJR4?ZdPBe5Yb0
-I3mbH>^BEdg3BnXb;GBNPS1
-VHk=`cLhREWcA`?9Vl7[Td0
+!s100 CKg<;`QMjG1AmiHAGa2Y43
+I0E]KRFIW>cZ<]d1MG<EUI3
+Z42 VHk=`cLhREWcA`?9Vl7[Td0
 R3
-R13
-R14
-R15
-L0 158
+R39
+R23
+R24
+R35
 R7
 r1
 !s85 0
 31
-R16
-R17
-R18
+R40
+R41
+R27
 !s101 -O0
-R8
+R9
