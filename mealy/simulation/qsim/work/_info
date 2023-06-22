@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 d/home/lazk3r/Documents/labIII/mealy/simulation/qsim
 vmealy
-Z1 !s100 c?RAlQLaQ[k:d[_=o];gX2
-Z2 I_a4h8Y5C8gRch_9X<:hdA2
+Z1 !s100 hj;FZ5UPz8HAU;<8_9_Wz3
+Z2 I?S0_H<3@2N@e^9@N0KC4;1
 Z3 Vc_kBN0kWQ8Rh=l<n80WW:0
 Z4 d/home/lazk3r/Documents/labIII/mealy/simulation/qsim
-Z5 w1687233098
+Z5 w1687400510
 Z6 8mealy.vo
 Z7 Fmealy.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|mealy.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1687233099.191132
+Z11 !s108 1687400510.843199
 Z12 !s107 mealy.vo|
 !s101 -O0
 vmealy_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 R5zIja?glCl?2GPRQe1Pj1
 Z14 IV5N5KHE]_^d=`6VFGgdU]0
 Z15 V[I>RSX9]mZg`YHeCV55<[1
 R4
-Z16 w1687233096
+Z16 w1687400508
 Z17 8mealy.vt
 Z18 Fmealy.vt
 L0 61
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1687233099.250066
+Z19 !s108 1687400510.885714
 Z20 !s107 mealy.vt|
 Z21 !s90 -work|work|mealy.vt|
 !s101 -O0
@@ -62,8 +62,8 @@ R21
 R10
 vmealy_vlg_vec_tst
 !i10b 1
-Z25 !s100 3_D15O4j^Em@Do6RGST6X3
-Z26 IgoiGhDWI8cE7mE75bZ=h32
+Z25 !s100 _@kz7@k?<iVG1PT:ND6mb2
+Z26 Im:R?Pc3_d=cEBP888>^7z3
 Z27 Vn;@kbG5;GDz?gHZ@Q7[?=3
 R4
 R16
